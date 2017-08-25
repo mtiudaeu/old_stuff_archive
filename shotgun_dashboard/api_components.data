@@ -1,0 +1,100 @@
+[
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame-review",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-flame-export",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-core",
+    "git" : "v2.1.0#719ba0f30b",
+    "pending-qa" : "v2.0",
+    "client-ready" : "v1.8"
+  },
+  {
+    "name" : "tk-config-flame",
+    "git" : "v6.1.0#3ffba06ff2",
+    "pending-qa" : "v6.0",
+    "client-ready" : "v5.8",
+    "expand" : "http://andorra:8080/api/expand/tk-config-flame"
+  },
+  {
+    "name" : "tk-config-flameplugin",
+    "git" : "v2.0.0",
+    "pending-qa" : "v1.1.0",
+    "client-ready" : "v1.0.0",
+    "expand" : "http://andorra:8080/api/expand/tk-config-flameplugin"
+  }
+]

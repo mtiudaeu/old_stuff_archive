@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo $MY_BIN_BASH_SCRIPT_SGF | xargs -n 1 | awk '{ print "-iname *."$1}' | xargs -n 2 find . | xargs grep -n -s $2 "$1"

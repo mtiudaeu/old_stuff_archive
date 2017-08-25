@@ -1,0 +1,7 @@
+# 1- Build
+   sudo docker build -t test:03 --build-arg git_email=m.drapeau9@gmail.com --build-arg git_name=Mathieu .
+# 2- Run
+   sudo docker run -ti --rm --name test -v `pwd`:/srv -w /srv test:03 bash
+# 3- Attach
+   sudo docker exec -it test bash
+

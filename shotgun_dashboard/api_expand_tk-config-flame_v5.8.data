@@ -1,0 +1,14 @@
+[
+  {
+    "name" : "tk-core",
+    "version : "v5.8"
+  },
+  {
+    "name" : "tk-flame",
+    "version : "v5.8"
+  },
+  {
+    "name" : "tk-flame-review",
+    "version : "v5.8"
+  }
+]

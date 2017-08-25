@@ -1,0 +1,38 @@
+set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set incsearch
+set hlsearch
+
+"set noswapfile
+
+" Switch between header and source file.
+map <F4> :e %:p:s,.h$,.X123X,:s,.C$,.h,:s,.X123X$,.C,<CR>
+" Perforce edit file.
+map <F8> O//MDTMP
+
+"set mouse=a
+
+" Filename as status line.
+set statusline=%F
+set laststatus=2
+
+set wildmode=longest,list,full
+set wildmenu
+
+
+:map <C-e> :tabe
+" ?
+:map <C-q> :q  <Enter>
+
+set clipboard+=unnamed
+
+" ?
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" ---------- TAG ----------
+set tags=../../tags
+" Tag on a new Tab
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+

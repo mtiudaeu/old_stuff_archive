@@ -1,0 +1,25 @@
+{
+  "name": "web-instance",
+  "version": "1.0.0",
+  "description": "Main web page.",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "0.0.2",
+    "https": "^1.0.0",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtiudaeu/web-instance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtiudaeu/web-instance/issues"
+  },
+  "homepage": "https://github.com/mtiudaeu/web-instance#readme"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "communauto-reservation",
+  "version": "1.0.0",
+  "description": "Tool to reserve commun auto car.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "https": "",
+    "fs": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtiudaeu/communauto-reservation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtiudaeu/communauto-reservation/issues"
+  },
+  "homepage": "https://github.com/mtiudaeu/communauto-reservation#readme"
+}

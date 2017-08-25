@@ -1,0 +1,3 @@
+CURRENT_SOURCES =
+CURRENT_SOURCES += common/base/init/init.cpp
+$(eval $(call OBJECTS_TEMPLATE, $(CURRENT_OBJECTS_NAME), $(CURRENT_SOURCES)))

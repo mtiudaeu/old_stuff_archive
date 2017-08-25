@@ -1,0 +1,17 @@
+# Alias
+alias sf='find -iname "\!:1"'
+
+alias vi='vim'
+alias se='vim'
+alias sef='vim -p `sf \!:1`'
+alias seg='vim -p `sgf \!:1 -l`'
+
+alias sgp='ps -elf | grep \!*'
+alias sgf='find . -name "*.[hC]" -print | xargs grep -s -n $2 $1'
+alias sgh='find . -name "*.h" -print | xargs grep -s -n $2 $1'
+alias sgc='find . -name "*.C" -print | xargs grep -s -n $2 $1'
+alias sgcpp='find . -name "*.cpp" -print | xargs grep -s -n $2 $1'
+alias sga='grep \!:1 -s -r * \!*'
+
+alias sgdblog='se /tmp/gdb.out'
+

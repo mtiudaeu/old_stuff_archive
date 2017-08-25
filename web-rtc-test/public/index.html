@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        <script src="peerconnection-client.js"></script>
+        <script src="websocket-client.js"></script>
+        <script src="chat-protocol-client.js"></script>
+        <script src="chat-ui-client.js"></script>
+        <script src="chat-main-client.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+
+    <body>
+          <video id="localVideo" autoplay muted></video>
+          <video id="remoteVideo" autoplay muted></video>
+          <label for="message">Enter a message:
+            <input type="text" name="message" id="message" placeholder="Message text"
+                    inputmode="latin" size=60 maxlength=120>
+          </label>
+          <button id="sendButton" name="sendButton" class="buttonright">
+            Send
+          </button>
+
+        <div id="receivebox">
+          <p>Messages received:</p>
+        </div>
+
+          <ul id="client-list">
+          </ul>
+
+        <script type="text/javascript">
+            pageInit("sendButton", "receivebox", "message", "client-list", "localVideo", "remoteVideo");
+        </script>
+    </body>
+</html>

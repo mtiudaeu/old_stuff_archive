@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vim `tail -$1 $CONF_GDB_LOG_FILE | head -1 | awk '{print $NF}' | sed 's|:|\ +|g'`

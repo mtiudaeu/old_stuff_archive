@@ -1,0 +1,3 @@
+CURRENT_SOURCES =
+CURRENT_SOURCES += common/json/json_utils.cpp
+$(eval $(call OBJECTS_TEMPLATE, $(CURRENT_OBJECTS_NAME), $(CURRENT_SOURCES)))

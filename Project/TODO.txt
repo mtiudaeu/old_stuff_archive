@@ -1,0 +1,21 @@
+1- Remove lib folder and clean third_party/include (gtest and boost)
+
+1- Clean Makefile
+  -Deparate shared library per target / internal library
+
+2- Clean code
+  -Unify code pratice.
+  -Clang formatter?
+  -Review the code.
+  
+3- Profiling unit-test?
+  
+2/3- Game : Add brute force unit test (Make sure many communication dont get mixed up)
+  -Unit Test
+  -Add message encapsulation
+
+
+  
+  Ideas
+  -Add Observer/Subject
+    Subject could have multimap with type of hint that observer support.

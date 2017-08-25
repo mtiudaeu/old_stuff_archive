@@ -1,0 +1,4 @@
+CURRENT_SOURCES =
+CURRENT_SOURCES += common/server/server.cpp
+$(eval $(call OBJECTS_TEMPLATE, $(CURRENT_OBJECTS_NAME), $(CURRENT_SOURCES)))
+

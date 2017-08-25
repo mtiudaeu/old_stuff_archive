@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#CURRENT_FRAME=`tail -2 $CONF_GDB_LOG_FILE | head -1 | awk '{print $NF}' | sed 's|develop/src/||g' | sed 's|:|\ :|g'`
+#FILE_NAME=`echo $CURRENT_FRAME | awk '{print $1}'`
+
+CURRENT_FRAME=`tail -2 $CONF_GDB_LOG_FILE | head -1 | awk '{print $NF}' | sed 's|:|\ :|g'`
+
+FILE_NAME=`echo "$P4ROOT/$P4CLIENT/$P4DEVROOT/$CURRENT_FRAME" | awk '{print $1}'`
+LINE_NUMBER=`echo $CURRENT_FRAME | awk '{print $2}'`
+
+vim --servername GDB --remote $FILE_NAME
+vim --servername GDB --remote-send "$LINE_NUMBER<CR>"
